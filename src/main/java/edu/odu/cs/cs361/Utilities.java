@@ -52,7 +52,7 @@ public class Utilities {
             return name1;
         else {
             // Stopped inside name1 (and within name2, because name1 < name2)
-            char diff1 = name1.charAt(match);
+            char diff1 = name2.charAt(match);
             char diff2 = name2.charAt(match);
             if (diff1 + 1 < diff2) {
                 // If the 1st differing characters are more than 1 apart, we
