@@ -1,0 +1,6 @@
+testFollower.o: testFollower.cpp utilities.h unittest.h
+utilities.o: utilities.cpp utilities.h
+testToUC.o: testToUC.cpp utilities.h unittest.h
+unittest.o: unittest.cpp unittest.h
+dividers.o: dividers.cpp utilities.h
+testSeparator.o: testSeparator.cpp utilities.h unittest.h
